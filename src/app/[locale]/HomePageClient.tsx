@@ -51,8 +51,6 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
     }
   };
 
-  const toolIcons = [Gift, GraduationCap, ListOrdered, Users, Shuffle, Map, Gem, Castle];
-
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -124,28 +122,62 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
             <p className="text-base md:text-lg text-muted-foreground">{t.tools.subtitle}</p>
           </div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4 lg:grid-cols-4">
-            {t.tools.cards.map((card: any, index: number) => {
-              const sectionIds = ["codes", "beginner-guide", "tier-list", "units-guide", "traits-rerolls", "worlds-progression", "relics-items-evolution", "raids-tower-events"];
-              const Icon = toolIcons[index];
-              const sectionId = sectionIds[index];
-              return (
-                <a
-                  key={sectionId}
-                  href={`#${sectionId}`}
-                  onClick={(event) => {
-                    event.preventDefault();
-                    scrollToSection(sectionId);
-                  }}
-                  className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
-                >
-                  <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    {Icon ? <Icon className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /> : null}
-                  </div>
-                  <h3 className="mb-1.5 text-sm md:text-base font-semibold">{card.title}</h3>
-                  <p className="text-sm text-muted-foreground">{card.description}</p>
-                </a>
-              );
-            })}
+            <a href="#codes" onClick={(event) => { event.preventDefault(); scrollToSection("codes"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Gift className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[0].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[0].description}</p>
+            </a>
+            <a href="#beginner-guide" onClick={(event) => { event.preventDefault(); scrollToSection("beginner-guide"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <GraduationCap className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[1].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[1].description}</p>
+            </a>
+            <a href="#tier-list" onClick={(event) => { event.preventDefault(); scrollToSection("tier-list"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <ListOrdered className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[2].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[2].description}</p>
+            </a>
+            <a href="#units-guide" onClick={(event) => { event.preventDefault(); scrollToSection("units-guide"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Users className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[3].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
+            </a>
+            <a href="#traits-rerolls" onClick={(event) => { event.preventDefault(); scrollToSection("traits-rerolls"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Shuffle className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+            <a href="#worlds-progression" onClick={(event) => { event.preventDefault(); scrollToSection("worlds-progression"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Map className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+            <a href="#relics-items-evolution" onClick={(event) => { event.preventDefault(); scrollToSection("relics-items-evolution"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Gem className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+            <a href="#raids-tower-events" onClick={(event) => { event.preventDefault(); scrollToSection("raids-tower-events"); }} className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <Castle className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
           </div>
         </div>
       </section>
