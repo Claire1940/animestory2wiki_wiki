@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -37,14 +37,11 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
-
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+    process.env.NEXT_PUBLIC_SITE_URL || "https://animestory2wiki.wiki";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: "Anime Story 2 Wiki - Codes, Units & Tier List",
+    description: "Anime Story 2 Wiki offers Roblox codes, unit tier lists, traits, bosses, worlds, farming tips, beginner guides, and update notes for fast progress.",
     robots: {
       index: true,
       follow: true,
@@ -60,24 +57,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      siteName: "Anime Story 2 Wiki",
+      title: "Anime Story 2 Wiki - Codes, Units & Tier List",
+      description: "Anime Story 2 Wiki offers Roblox codes, unit tier lists, traits, bosses, worlds, farming tips, beginner guides, and update notes for fast progress.",
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Anime Story 2 - Surreal Voxel Sandbox",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
+      title: "Anime Story 2 Wiki - Codes, Units & Tier List",
+      description: "Anime Story 2 Wiki offers Roblox codes, unit tier lists, traits, bosses, worlds, farming tips, beginner guides, and update notes for fast progress.",
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@animestory2wiki",
     },
     icons: {
       icon: [

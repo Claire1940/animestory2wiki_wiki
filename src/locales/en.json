@@ -34,29 +34,29 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Anime Gacha RPG",
+    "title": "Anime Story 2 Wiki",
+    "description": "Summon anime-inspired units, level up your squad, redeem official codes, clear story stages, unlock worlds, and track bosses, traits, towers, and updates.",
+    "getFreeCodesCTA": "Get Free Codes",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "0.5",
+        "label": "Latest Update"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "5",
+        "label": "Official Listed Codes"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "17K+",
+        "label": "Discord Members"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "PC / Mobile / Console",
+        "label": "Supported Platforms"
       }
-    }
+    },
+    "playOnRobloxCTA": "Play on Roblox"
   },
   "gameFeature": {
     "title": "Lucid Blocks Gameplay",
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Progress in Anime Story 2?",
+    "description": "Get the latest Anime Story 2 codes and join the Roblox community for update alerts and strategy discussions.",
+    "joinCommunity": "Join Discord Community",
+    "joinGame": "Play Anime Story 2 on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Anime Story 2 Wiki",
+    "description": "Your complete Anime Story 2 resource hub for codes, unit tier lists, traits, bosses, worlds, and progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "YouTube Channel",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Anime Story 2 Wiki. Not affiliated with the game developers.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

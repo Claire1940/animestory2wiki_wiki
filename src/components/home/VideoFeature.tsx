@@ -53,7 +53,7 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
             <span className="absolute inset-0 flex items-center justify-center">
               <span className="inline-flex items-center gap-2 rounded-full px-5 py-3 bg-[hsl(var(--nav-theme))/0.9] text-white shadow-lg">
                 <Play className="h-5 w-5 fill-white" />
-                <span className="text-sm font-semibold">Play Trailer</span>
+                <span className="text-sm font-semibold">Play Video</span>
               </span>
             </span>
           </button>

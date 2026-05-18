@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://animestory2wiki.wiki/sitemap.xml
