@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guides": "Guides",
+    "crafting": "Crafting",
+    "items": "Items",
+    "biomes": "Biomes",
+    "building": "Building",
+    "support": "Support"
   },
   "common": {
     "home": "Главная",

@@ -16,6 +16,7 @@ import {
   getPreferredMobileContentSelection,
 } from "@/components/ads/mobileAdConfigs";
 import { cloneElement, isValidElement } from "react";
+import { NAVIGATION_CONFIG } from "@/config/navigation";
 
 interface DetailPageProps {
   frontmatter: ContentFrontmatter;
@@ -38,14 +39,9 @@ export async function DetailPage({
   const t = await getTranslations();
 
   // 内容类型翻译映射
-  const contentTypeLabels: Record<string, string> = {
-    guides: t("nav.guides"),
-    crafting: t("nav.crafting"),
-    items: t("nav.items"),
-    biomes: t("nav.biomes"),
-    building: t("nav.building"),
-    support: t("nav.support"),
-  };
+  const contentTypeLabels: Record<string, string> = Object.fromEntries(
+    NAVIGATION_CONFIG.map((item) => [item.path.slice(1), t(`nav.${item.key}`)]),
+  );
 
   // 提取图片元数据
   const imageMetadata = frontmatter.image

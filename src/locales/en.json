@@ -10,7 +10,14 @@
       "twitterDescription": "Anime Story 2 Wiki covers active codes, beginner progression, tier list picks, traits, worlds, relic materials, raids, and event rewards."
     }
   },
-  "nav": {},
+  "nav": {
+    "guides": "Guides",
+    "crafting": "Crafting",
+    "items": "Items",
+    "biomes": "Biomes",
+    "building": "Building",
+    "support": "Support"
+  },
   "common": {
     "home": "Home",
     "more": "More",

@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guides": "Guides",
+    "crafting": "Crafting",
+    "items": "Items",
+    "biomes": "Biomes",
+    "building": "Building",
+    "support": "Support"
   },
   "common": {
     "home": "Início",

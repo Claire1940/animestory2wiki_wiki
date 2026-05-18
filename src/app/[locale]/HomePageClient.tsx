@@ -343,14 +343,24 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       {mobileBannerAd && <AdBanner type={mobileBannerAd.type} adKey={mobileBannerAd.adKey} className="md:hidden" />}
 
       <Suspense fallback={<LoadingPlaceholder />}>
-        <FAQSection faq={t.faq} />
+        <FAQSection
+          title={t.faq.title}
+          titleHighlight={t.faq.titleHighlight}
+          subtitle={t.faq.subtitle}
+          questions={t.faq.questions}
+        />
       </Suspense>
 
       <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} className="md:hidden" />
-      <AdBanner type="banner-970x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_970X90} className="hidden md:flex" />
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} className="hidden md:flex" />
 
       <Suspense fallback={<LoadingPlaceholder />}>
-        <CTASection cta={t.cta} locale={locale} />
+        <CTASection
+          title={t.cta.title}
+          description={t.cta.description}
+          joinCommunity={t.cta.joinCommunity}
+          joinGame={t.cta.joinGame}
+        />
       </Suspense>
     </div>
   );
