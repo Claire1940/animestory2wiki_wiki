@@ -184,73 +184,154 @@
     },
     "animeStory2TraitsRerolls": {
       "title": "Anime Story 2 Traits and Rerolls Guide",
-      "intro": "Reroll traits with a clear budget so tokens produce measurable power gains.",
+      "intro": "Compare every listed trait, see what each buff does, and choose when to spend Trait Tokens on rerolls.",
       "traits": [
         {
-          "name": "DPS Traits",
-          "description": "Prioritize trait lines that increase burst and sustained damage on your main carry."
+          "name": "Vigor III",
+          "chance": "18%",
+          "buff": "+15% Health",
+          "bestFor": "Tank units",
+          "rerollAdvice": "Usable on a durable slot, but not a final DPS trait."
         },
         {
-          "name": "Tank Traits",
-          "description": "Use defensive trait rolls on frontline units that hold boss pressure."
+          "name": "Berserk",
+          "chance": "11%",
+          "buff": "+25% Damage",
+          "bestFor": "DPS units",
+          "rerollAdvice": "Strong practical stop for most damage carries."
         },
         {
-          "name": "Support Traits",
-          "description": "Pick utility traits that improve team buffs, cooldown flow, and survival windows."
+          "name": "Sharp Shooter",
+          "chance": "11%",
+          "buff": "+15% Critical Damage and +15% Critical Chance",
+          "bestFor": "Crit DPS",
+          "rerollAdvice": "Keep on crit-focused damage units."
+        },
+        {
+          "name": "Solar",
+          "chance": "2%",
+          "buff": "+33% Health and +33% Damage",
+          "bestFor": "Premium carry or bruiser",
+          "rerollAdvice": "Stop rerolling unless you are chasing Monarch on a top-tier unit."
+        },
+        {
+          "name": "Dead Eye",
+          "chance": "2%",
+          "buff": "+40% Critical Damage and +40% Critical Chance",
+          "bestFor": "Premium crit DPS",
+          "rerollAdvice": "Stop on any serious crit carry."
+        },
+        {
+          "name": "Ethereal",
+          "chance": "2%",
+          "buff": "+50% Damage",
+          "bestFor": "Premium DPS",
+          "rerollAdvice": "Stop on your main damage unit unless you are specifically chasing Monarch."
+        },
+        {
+          "name": "Monarch",
+          "chance": "0.1%",
+          "buff": "+25% Critical Chance, +50% Critical Damage, +75% Health, and +75% Damage",
+          "bestFor": "Best all-around carry trait",
+          "rerollAdvice": "Keep permanently on any important unit."
         }
       ]
     },
     "animeStory2WorldsProgression": {
       "title": "Anime Story 2 Worlds and Stage Progression",
-      "intro": "Follow a world route that balances unlock speed, combat power checks, and drop efficiency.",
+      "intro": "Follow the world unlock path, check estimated Combat Power ranges, and know which Stage VII drops are worth farming.",
       "steps": [
         {
-          "name": "Early World Push",
-          "description": "Advance quickly through early stages to unlock more valuable resource loops."
+          "name": "Green Planet",
+          "description": "55-1.33K Combat Power. Farm Stage VII for Green Shard to craft Dragon Ball and support Vogita (Blue) evolution."
         },
         {
-          "name": "Hard and Nightmare Farming",
-          "description": "Repeat higher difficulty stages once your team can clear them consistently."
+          "name": "Desert",
+          "description": "2.05K-6.07K Combat Power. Farm Stage VII for Orange Shard to craft Kunai for early critical chance builds."
         },
         {
-          "name": "Shard and Token Routing",
-          "description": "Target stages that drop the exact shards and tokens needed for your next upgrade."
+          "name": "Double Dungeon",
+          "description": "6.8K-13.3K Combat Power. Farm Stage VII for Blue Shard to craft Elixir when your team needs survivability."
+        },
+        {
+          "name": "Titan City",
+          "description": "14K-18.8K Combat Power. Farm Stage VII for Grey Shard to craft Grapple Hook on your mid-game crit path."
+        },
+        {
+          "name": "Beach Harbor",
+          "description": "19K-33.2K Combat Power. Farm Stage VII for Yellow Shard to craft Strawhat for health scaling."
+        },
+        {
+          "name": "Gold District",
+          "description": "34K-44.1K Combat Power. Farm Stage VII for Red Shard to craft Katana before deeper progression."
+        },
+        {
+          "name": "Realm Seven",
+          "description": "59K-64.8K Combat Power. Stage III can drop Wrath or Nightbane while Stage VII farms Pride and Dawnrender."
+        },
+        {
+          "name": "Snow Village",
+          "description": "60.8K-99.3K Combat Power. Farm Stage VII for Purple Shard to craft Flame Sword relic."
+        },
+        {
+          "name": "Heroic City",
+          "description": "78.6K-171K Combat Power. Farm Stage VII for Brown Shard used in Baseball Bat plus Coal and Candy recipes."
+        },
+        {
+          "name": "Rome",
+          "description": "63K-170K Combat Power. Farm Stage VII for Unbreaking Diamond to evolve Golden Wind."
         }
       ]
     },
     "animeStory2RelicsItemsEvolution": {
       "title": "Anime Story 2 Relics Items and Evolution Materials",
-      "intro": "Track where each relic and evolution material comes from before spending stamina and tokens.",
+      "intro": "Track relic recipes, shard sources, evolution materials, and key upgrade items for stronger team progression.",
       "items": [
         {
-          "name": "Relic Materials",
-          "description": "Farm relic-specific drops from the worlds tied to your current build plan."
+          "name": "Dragon Ball / Kunai / Elixir",
+          "description": "Early relic route: Green, Orange, and Blue Shards from Stage VII worlds for damage, crit, and health setups."
         },
         {
-          "name": "Evolution Shards",
-          "description": "Save shard sets for units you will keep through late-game team rotations."
+          "name": "Grapple Hook / Strawhat / Katana",
+          "description": "Mid-game relic route: Grey, Yellow, and Red Shards from Titan City, Beach Harbor, and Gold District."
         },
         {
-          "name": "Upgrade Currency",
-          "description": "Maintain a reserve of core currencies so banner pulls can be upgraded immediately."
+          "name": "Flame Sword / Baseball Bat / Demon Ring",
+          "description": "Late-game relic route: Purple, Brown, and Pink Shard plans for stronger crit, damage, and health scaling."
+        },
+        {
+          "name": "Coal / Candy Hybrid Relics",
+          "description": "Combine Purple and Brown Shards for defensive or offensive hybrid relic options."
+        },
+        {
+          "name": "Trait Tokens and Stat Chips",
+          "description": "Use upgrade items from codes, quests, challenges, and shops to reroll traits and optimize unit stats."
+        },
+        {
+          "name": "Ascend Tickets and Evolution Items",
+          "description": "Prioritize evolution materials from raid shops for long-term core units before spending on side projects."
         }
       ]
     },
     "animeStory2RaidsTowerEvents": {
       "title": "Anime Story 2 Raids Tower and Events Guide",
-      "intro": "Use raid, tower, and event cycles to accelerate late-game account growth.",
+      "intro": "Use late-game modes to farm rerolls, raid tokens, evolution materials, Slime Tokens, Ascension Items, and limited rewards.",
       "faqs": [
         {
-          "question": "Which mode should I farm first in Anime Story 2 late game?",
-          "answer": "Start with the mode that upgrades your current bottleneck first, then rotate to tower and raids for broader rewards."
+          "question": "How should I run Anime Story 2 Tower of Ascension efficiently?",
+          "answer": "Push milestone floors first for loop rewards, then continue deeper only when your team can clear quickly and safely."
         },
         {
-          "question": "How often should I run Anime Story 2 event shops?",
-          "answer": "Buy limited-time progression materials first each cycle, then spend remaining currency on long-term upgrade resources."
+          "question": "What is the best way to spend Anime Story 2 raid tokens?",
+          "answer": "Choose the raid shop tied to your target evolution material first, then avoid splitting tokens across unrelated upgrades."
         },
         {
-          "question": "What does Anime Story 2 Tower of Ascension help most?",
-          "answer": "Tower clears provide progression rewards that improve roster depth for raids and harder story tiers."
+          "question": "When should I focus Anime Story 2 Slime Apocalypse rewards?",
+          "answer": "Farm event currency during the active window and buy Ascension Items, Trait Tokens, and Stat Chips before optional banner rolls."
+        },
+        {
+          "question": "Why should I redeem Anime Story 2 update codes before farming?",
+          "answer": "Update rewards can cover rerolls, orbs, gems, and event tokens, so you can reduce grind and target your next upgrade faster."
         }
       ]
     }

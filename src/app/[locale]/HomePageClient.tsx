@@ -129,13 +129,21 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               const Icon = toolIcons[index];
               const sectionId = sectionIds[index];
               return (
-                <button key={sectionId} onClick={() => scrollToSection(sectionId)} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+                <a
+                  key={sectionId}
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    scrollToSection(sectionId);
+                  }}
+                  className="scroll-reveal group block rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+                >
                   <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     {Icon ? <Icon className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /> : null}
                   </div>
                   <h3 className="mb-1.5 text-sm md:text-base font-semibold">{card.title}</h3>
                   <p className="text-sm text-muted-foreground">{card.description}</p>
-                </button>
+                </a>
               );
             })}
           </div>
@@ -228,11 +236,18 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.animeStory2TraitsRerolls.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.animeStory2TraitsRerolls.intro}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.animeStory2TraitsRerolls.traits.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl">
-                <h3 className="font-bold mb-2 text-[hsl(var(--nav-theme-light))]">{item.name}</h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
+                <div className="flex items-start justify-between gap-3 mb-2">
+                  <h3 className="font-bold text-[hsl(var(--nav-theme-light))]">{item.name}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.35)]">
+                    {item.chance}
+                  </span>
+                </div>
+                <p className="text-sm mb-1"><span className="text-muted-foreground">Buff:</span> {item.buff}</p>
+                <p className="text-sm mb-1"><span className="text-muted-foreground">Best Role:</span> {item.bestFor}</p>
+                <p className="text-sm text-muted-foreground">{item.rerollAdvice}</p>
               </div>
             ))}
           </div>
