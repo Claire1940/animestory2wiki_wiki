@@ -1,10 +1,515 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki Anime Story 2 - Kode, Tier List & Progresi",
+      "description": "Wiki Anime Story 2 mencakup kode aktif, progresi pemula, pilihan tier list, trait, dunia, material relik, raid, dan hadiah event.",
+      "keywords": "Anime Story 2, kode Anime Story 2, tier list Anime Story 2, trait Anime Story 2, dunia Anime Story 2",
+      "ogTitle": "Wiki Anime Story 2 - Kode, Tier List & Progresi",
+      "ogDescription": "Wiki Anime Story 2 mencakup kode aktif, progresi pemula, pilihan tier list, trait, dunia, material relik, raid, dan hadiah event.",
+      "twitterTitle": "Wiki Anime Story 2 - Kode, Tier List & Progresi",
+      "twitterDescription": "Wiki Anime Story 2 mencakup kode aktif, progresi pemula, pilihan tier list, trait, dunia, material relik, raid, dan hadiah event."
+    }
+  },
   "nav": {
-    "guides": "Guides",
+    "guides": "Panduan",
     "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
+    "items": "Item",
+    "biomes": "Bioma",
+    "building": "Membangun",
+    "support": "Dukungan"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Selengkapnya",
+    "playNow": "Mainkan di Steam",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ditemukan.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya",
+    "articlesComingSoon": "Artikel segera hadir"
+  },
+  "hero": {
+    "badge": "Roblox Anime Gacha RPG",
+    "title": "Wiki Anime Story 2",
+    "description": "Panggil unit yang terinspirasi anime, tingkatkan skuad Anda, tukarkan kode resmi, selesaikan tahap cerita, buka dunia, dan pantau bos, trait, menara, serta pembaruan.",
+    "getFreeCodesCTA": "Dapatkan Kode Gratis",
+    "stats": {
+      "stat1": {
+        "value": "0.5",
+        "label": "Pembaruan Terbaru"
+      },
+      "stat2": {
+        "value": "5",
+        "label": "Kode Resmi Terdaftar"
+      },
+      "stat3": {
+        "value": "17K+",
+        "label": "Anggota Discord"
+      },
+      "stat4": {
+        "value": "PC / Seluler / Konsol",
+        "label": "Platform yang Didukung"
+      }
+    },
+    "playOnRobloxCTA": "Mainkan di Roblox"
+  },
+  "gameFeature": {
+    "title": "Gameplay Anime Story 2",
+    "description": "Saksikan sorotan pertarungan, pemanggilan, dan progres Anime Story 2 dari pembaruan terbaru."
+  },
+  "tools": {
+    "title": "Anime Story 2",
+    "titleHighlight": "Navigasi Modul",
+    "subtitle": "Langsung ke panduan inti Anime Story 2 dalam satu klik.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Kode Anime Story 2",
+        "description": "Hadiah kode aktif dan kedaluwarsa serta bantuan penukaran"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Panduan Pemula Anime Story 2",
+        "description": "Langkah pertama terbaik untuk pemanggilan dan peningkatan"
+      },
+      {
+        "icon": "ListOrdered",
+        "title": "Daftar Tingkat Anime Story 2",
+        "description": "Pilihan unit teratas berdasarkan peran dan tahap progres"
+      },
+      {
+        "icon": "Users",
+        "title": "Panduan Unit Anime Story 2",
+        "description": "Kelompok kelangkaan, peran, dan prioritas peningkatan"
+      },
+      "Shuffle",
+      {
+        "icon": "Shuffle",
+        "title": "Sifat dan Reroll Anime Story 2",
+        "description": "Nilai sifat, waktu reroll, dan penggunaan token"
+      },
+      {
+        "icon": "Map",
+        "title": "Dunia dan Progres Tahap Anime Story 2",
+        "description": "Urutan pembukaan dunia dan pilihan tahap farming"
+      },
+      {
+        "icon": "Gem",
+        "title": "Item Relik dan Material Evolusi Anime Story 2",
+        "description": "Rute material untuk pertumbuhan relik dan unit"
+      },
+      {
+        "icon": "Castle",
+        "title": "Panduan Raid Menara dan Event Anime Story 2",
+        "description": "Mode akhir permainan, hadiah, dan prioritas event"
+      }
+    ]
+  },
+  "modules": {
+    "animeStory2Codes": {
+      "title": "Kode Anime Story 2",
+      "intro": "Tukarkan kode Anime Story 2 yang aktif terlebih dahulu untuk meningkatkan pemanggilan, sifat, dan peningkatan awal.",
+      "cards": [
+        {
+          "name": "Hadiah Aktif",
+          "description": "Klaim kode aktif terbaru untuk Permata, Token Sifat, Bola Rahasia, dan Tiket Pemanggilan sebelum setiap sesi bermain."
+        },
+        {
+          "name": "Langkah Penukaran",
+          "description": "Buka Anime Story 2 di Roblox, ketuk Kode, tempel kode aktif dengan tepat, dan tekan Klaim."
+        },
+        {
+          "name": "Perbaikan Kode",
+          "description": "Jika kode gagal, bergabunglah kembali dengan server baru, periksa ejaan yang peka huruf besar/kecil, dan konfirmasikan bahwa kode belum kedaluwarsa."
+        }
+      ]
+    },
+    "animeStory2BeginnerGuide": {
+      "title": "Panduan Pemula Anime Story 2",
+      "intro": "Gunakan daftar periksa ini untuk membangun tim awal yang stabil, menghemat sumber daya, dan membuka kemajuan yang lebih cepat.",
+      "steps": [
+        {
+          "title": "Klaim Kode dan Hadiah Harian",
+          "description": "Mulai dengan sumber daya gratis agar pemanggilan dan peningkatan pertama Anda efisien."
+        },
+        {
+          "title": "Bangun Satu Unit Carry Terlebih Dahulu",
+          "description": "Fokuskan level dan material pada DPS awal terbaik Anda daripada membagi peningkatan."
+        },
+        {
+          "title": "Dorong Tahap Cerita",
+          "description": "Selesaikan dunia untuk membuka zona farming yang lebih baik, mode permainan, dan drop material."
+        },
+        {
+          "title": "Simpan Permata untuk Banner Kuat",
+          "description": "Belanjakan pada banner yang meningkatkan peran tim inti Anda daripada tarikan acak."
+        }
+      ]
+    },
+    "animeStory2TierList": {
+      "title": "Daftar Tingkat Anime Story 2",
+      "intro": "Prioritaskan unit berdasarkan nilai peran dan konsistensi di seluruh cerita, raid, dan konten menara.",
+      "tiers": [
+        {
+          "rank": "S Tier",
+          "name": "Pilihan Carry Inti",
+          "description": "Unit dengan kerusakan tinggi dengan kecepatan pembersihan yang andal di sebagian besar mode permainan."
+        },
+        {
+          "rank": "A Tier",
+          "name": "Unit Tim Fleksibel",
+          "description": "Pilihan kuat untuk komposisi campuran yang masih berkembang jauh ke dalam kemajuan."
+        },
+        {
+          "rank": "B Tier",
+          "name": "Unit Jembatan Pemula",
+          "description": "Pilihan awal yang berguna saat Anda farming untuk peningkatan mitos atau rahasia yang lebih baik."
+        }
+      ]
+    },
+    "animeStory2UnitsGuide": {
+      "title": "Panduan Unit Anime Story 2",
+      "intro": "Urutkan unit berdasarkan kelangkaan dan peran sehingga Anda dapat memutuskan di mana menginvestasikan setiap tingkatan material.",
+      "groups": [
+        {
+          "name": "Unit Langka dan Epik",
+          "description": "Pengisi sementara untuk dunia awal sampai pemanggilan yang lebih kuat menggantikan mereka."
+        },
+        {
+          "name": "Unit Legendaris dan Mitos",
+          "description": "Inti kemajuan utama dengan skala dan nilai sifat yang lebih baik."
+        },
+        {
+          "name": "Unit Rahasia dan Eksklusif",
+          "description": "Pilar akhir permainan yang bernilai sumber daya premium, item kenaikan, dan material evolusi."
+        }
+      ]
+    },
+    "animeStory2TraitsRerolls": {
+      "title": "Panduan Sifat dan Reroll Anime Story 2",
+      "intro": "Bandingkan setiap sifat yang terdaftar, lihat apa yang dilakukan setiap buff, dan pilih kapan harus menghabiskan Token Sifat untuk reroll.",
+      "traits": [
+        {
+          "name": "Vigor III",
+          "chance": "18%",
+          "buff": "+15% Kesehatan",
+          "bestFor": "Unit tank",
+          "rerollAdvice": "Dapat digunakan pada slot yang tahan lama, tetapi bukan sifat DPS akhir."
+        },
+        {
+          "name": "Berserk",
+          "chance": "11%",
+          "buff": "+25% Kerusakan",
+          "bestFor": "Unit DPS",
+          "rerollAdvice": "Penghentian praktis yang kuat untuk sebagian besar carry kerusakan."
+        },
+        {
+          "name": "Sharp Shooter",
+          "chance": "11%",
+          "buff": "+15% Kerusakan Kritis dan +15% Peluang Kritis",
+          "bestFor": "DPS Krit",
+          "rerollAdvice": "Pertahankan pada unit kerusakan yang berfokus pada krit."
+        },
+        {
+          "name": "Solar",
+          "chance": "2%",
+          "buff": "+33% Kesehatan dan +33% Kerusakan",
+          "bestFor": "Carry premium atau bruiser",
+          "rerollAdvice": "Berhenti reroll kecuali Anda mengejar Monarch pada unit tingkat atas."
+        },
+        {
+          "name": "Dead Eye",
+          "chance": "2%",
+          "buff": "+40% Kerusakan Kritis dan +40% Peluang Kritis",
+          "bestFor": "DPS krit premium",
+          "rerollAdvice": "Berhenti pada carry krit yang serius."
+        },
+        {
+          "name": "Ethereal",
+          "chance": "2%",
+          "buff": "+50% Kerusakan",
+          "bestFor": "DPS premium",
+          "rerollAdvice": "Berhenti pada unit kerusakan utama Anda kecuali Anda secara khusus mengejar Monarch."
+        },
+        {
+          "name": "Monarch",
+          "chance": "0.1%",
+          "buff": "+25% Peluang Kritis, +50% Kerusakan Kritis, +75% Kesehatan, dan +75% Kerusakan",
+          "bestFor": "Sifat carry serba terbaik",
+          "rerollAdvice": "Pertahankan secara permanen pada unit penting apa pun."
+        }
+      ]
+    },
+    "animeStory2WorldsProgression": {
+      "title": "Anime Story 2 Dunia dan Progres Tahap",
+      "intro": "Ikuti jalur pembukaan dunia, periksa perkiraan rentang Kekuatan Tempur, dan ketahui drop Tahap VII mana yang layak untuk di-farming.",
+      "steps": [
+        {
+          "name": "Green Planet",
+          "description": "55-1.33K Kekuatan Tempur. Farming Tahap VII untuk Green Shard guna membuat Dragon Ball dan mendukung evolusi Vogita (Biru)."
+        },
+        {
+          "name": "Desert",
+          "description": "2.05K-6.07K Kekuatan Tempur. Farming Tahap VII untuk Orange Shard guna membuat Kunai untuk build peluang kritikal awal."
+        },
+        {
+          "name": "Double Dungeon",
+          "description": "6.8K-13.3K Kekuatan Tempur. Farming Tahap VII untuk Blue Shard guna membuat Elixir saat tim Anda membutuhkan daya tahan."
+        },
+        {
+          "name": "Titan City",
+          "description": "14K-18.8K Kekuatan Tempur. Farming Tahap VII untuk Grey Shard guna membuat Grapple Hook pada jalur kritikal pertengahan game Anda."
+        },
+        {
+          "name": "Beach Harbor",
+          "description": "19K-33.2K Kekuatan Tempur. Farming Tahap VII untuk Yellow Shard guna membuat Strawhat untuk peningkatan kesehatan."
+        },
+        {
+          "name": "Gold District",
+          "description": "34K-44.1K Kekuatan Tempur. Farming Tahap VII untuk Red Shard guna membuat Katana sebelum progres yang lebih dalam."
+        },
+        {
+          "name": "Realm Seven",
+          "description": "59K-64.8K Kekuatan Tempur. Tahap III dapat menjatuhkan Wrath atau Nightbane sementara Tahap VII farming Pride dan Dawnrender."
+        },
+        {
+          "name": "Snow Village",
+          "description": "60.8K-99.3K Kekuatan Tempur. Farming Tahap VII untuk Purple Shard guna membuat relik Flame Sword."
+        },
+        {
+          "name": "Heroic City",
+          "description": "78.6K-171K Kekuatan Tempur. Farming Tahap VII untuk Brown Shard yang digunakan dalam resep Baseball Bat ditambah Coal dan Candy."
+        },
+        {
+          "name": "Rome",
+          "description": "63K-170K Kekuatan Tempur. Farming Tahap VII untuk Unbreaking Diamond guna mengembangkan Golden Wind."
+        }
+      ]
+    },
+    "animeStory2RelicsItemsEvolution": {
+      "title": "Anime Story 2 Relik, Item, dan Material Evolusi",
+      "intro": "Lacak resep relik, sumber shard, material evolusi, dan item peningkatan kunci untuk progres tim yang lebih kuat.",
+      "items": [
+        {
+          "name": "Dragon Ball / Kunai / Elixir",
+          "description": "Rute relik awal: Green, Orange, dan Blue Shard dari dunia Tahap VII untuk setup damage, kritikal, dan kesehatan."
+        },
+        {
+          "name": "Grapple Hook / Strawhat / Katana",
+          "description": "Rute relik pertengahan game: Grey, Yellow, dan Red Shard dari Titan City, Beach Harbor, dan Gold District."
+        },
+        {
+          "name": "Flame Sword / Baseball Bat / Demon Ring",
+          "description": "Rute relik akhir game: Rencana Purple, Brown, dan Pink Shard untuk peningkatan kritikal, damage, dan kesehatan yang lebih kuat."
+        },
+        {
+          "name": "Coal / Candy Hybrid Relics",
+          "description": "Gabungkan Purple dan Brown Shard untuk opsi relik hibrida defensif atau ofensif."
+        },
+        {
+          "name": "Trait Tokens and Stat Chips",
+          "description": "Gunakan item peningkatan dari kode, quest, tantangan, dan toko untuk me-reroll trait dan mengoptimalkan statistik unit."
+        },
+        {
+          "name": "Ascend Tickets and Evolution Items",
+          "description": "Prioritaskan material evolusi dari toko raid untuk unit inti jangka panjang sebelum menghabiskan untuk proyek sampingan."
+        }
+      ]
+    },
+    "animeStory2RaidsTowerEvents": {
+      "title": "Panduan Anime Story 2 Raids Tower dan Event",
+      "intro": "Gunakan mode akhir permainan untuk mendapatkan reroll, token raid, material evolusi, Slime Tokens, Ascension Items, dan hadiah terbatas.",
+      "faqs": [
+        {
+          "question": "Bagaimana seharusnya saya menjalankan Anime Story 2 Tower of Ascension secara efisien?",
+          "answer": "Dorong lantai pencapaian terlebih dahulu untuk hadiah putaran, lalu lanjutkan lebih dalam hanya ketika tim Anda dapat membersihkan dengan cepat dan aman."
+        },
+        {
+          "question": "Apa cara terbaik untuk menghabiskan token raid Anime Story 2?",
+          "answer": "Pilih toko raid yang terkait dengan material evolusi target Anda terlebih dahulu, lalu hindari membagi token untuk peningkatan yang tidak terkait."
+        },
+        {
+          "question": "Kapan saya harus fokus pada hadiah Anime Story 2 Slime Apocalypse?",
+          "answer": "Kumpulkan mata uang event selama jendela aktif dan beli Ascension Items, Trait Tokens, dan Stat Chips sebelum gulungan banner opsional."
+        },
+        {
+          "question": "Mengapa saya harus menukarkan kode pembaruan Anime Story 2 sebelum bertani?",
+          "answer": "Hadiah pembaruan dapat mencakup reroll, orb, permata, dan token event, sehingga Anda dapat mengurangi penggilingan dan menargetkan peningkatan berikutnya lebih cepat."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan Anime Story 2",
+    "titleHighlight": "FAQ",
+    "subtitle": "Jawaban cepat untuk kemajuan Anime Story 2, pemanggilan, dan mode permainan.",
+    "questions": [
+      {
+        "question": "Bagaimana cara menukarkan kode Anime Story 2?",
+        "answer": "Buka Anime Story 2 di Roblox, ketuk Kode, tempel kode aktif, dan klaim hadiah segera."
+      },
+      {
+        "question": "Apa yang harus saya lakukan pertama kali di Anime Story 2?",
+        "answer": "Klaim kode aktif, bangun satu unit pembawa, dan dorong dunia cerita untuk membuka pertanian yang lebih baik."
+      },
+      {
+        "question": "Bagaimana cara kerja sifat di Anime Story 2?",
+        "answer": "Sifat menambahkan bonus khusus peran, jadi token reroll harus difokuskan hanya pada unit inti."
+      },
+      {
+        "question": "Kapan saya harus bertani raid di Anime Story 2?",
+        "answer": "Bertani raid setelah inti cerita Anda stabil dan tim Anda dapat membersihkan secara konsisten."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Maju di Anime Story 2?",
+    "description": "Gunakan modul wiki Anime Story 2 untuk merencanakan pemanggilan, peningkatan, dan jalur pertanian akhir permainan.",
+    "joinCommunity": "Bergabung dengan Komunitas Anime Story 2",
+    "joinGame": "Mainkan Anime Story 2 di Roblox"
+  },
+  "footer": {
+    "title": "Wiki Anime Story 2",
+    "description": "Pusat sumber daya Anime Story 2 lengkap Anda untuk kode, daftar tingkat unit, sifat, bos, dunia, dan panduan kemajuan.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "YouTube Channel",
+    "steamStore": "Mainkan di Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Anime Story 2 Wiki. Tidak berafiliasi dengan pengembang game.",
+    "disclaimer": "Situs web sumber daya buatan penggemar tidak resmi."
+  },
+  "pages": {
+    "guides": {
+      "title": "Panduan Anime Story 2",
+      "description": "Panduan gameplay lengkap mulai dari dasar-dasar pemula hingga strategi Apotheosis tingkat lanjut. Kuasai bertahan hidup dan kerajinan.",
+      "metaTitle": "Panduan Anime Story 2 - Strategi Pemula hingga Tingkat Lanjut",
+      "metaDescription": "Panduan Anime Story 2 lengkap yang mencakup tips pemula, sistem Apotheosis, strategi bertahan hidup, dan taktik ahli untuk menguasai sandbox surealis.",
+      "categoryLabel": "PANDUAN GAME",
+      "whatIs": "Apa itu Panduan?",
+      "whatIsDescription": "Panduan komprehensif yang mencakup mekanisme gameplay, strategi bertahan hidup, dan sistem kerajinan Apotheosis. Pelajari segalanya mulai dari langkah pertama hingga teknik lanjutan.",
+      "why": "Mengapa membaca panduan?",
+      "whySteps": {
+        "step1Title": "Pelajari Mekanisme Inti",
+        "step1Description": "Pahami sistem Apotheosis dan hindari kesalahan umum pemula",
+        "step2Title": "Progres Cepat",
+        "step2Description": "Ikuti jalur yang terbukti untuk bertahan hidup dan berkembang di dunia surealis",
+        "step3Title": "Kuasai Strategi",
+        "step3Description": "Kembangkan taktik lanjutan untuk eksplorasi dan kerajinan"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "crafting": {
+      "title": "Kerajinan Anime Story 2",
+      "description": "Kuasai sistem fusi Apotheosis dengan mekanisme esensi, resep, dan strategi kerajinan untuk item yang kuat.",
+      "metaTitle": "Kerajinan Anime Story 2 - Sistem & Resep Apotheosis",
+      "metaDescription": "Kuasai sistem kerajinan Apotheosis Anime Story 2. Pelajari mekanisme esensi, resep fusi, dan strategi untuk membuat alat dan senjata yang kuat.",
+      "categoryLabel": "SISTEM KERAJINAN",
+      "whatIs": "Apa itu Kerajinan?",
+      "whatIsDescription": "Sistem Apotheosis adalah mekanisme fusi unik berbasis esensi di mana Anda menggabungkan hingga enam item untuk menemukan resep baru. Tidak ada menu kerajinan tetap—eksperimen adalah kuncinya.",
+      "why": "Mengapa menguasai kerajinan?",
+      "whySteps": {
+        "step1Title": "Buka Item Kuat",
+        "step1Description": "Temukan alat, senjata, dan perlengkapan mobilitas penting melalui fusi",
+        "step2Title": "Pahami Esensi",
+        "step2Description": "Pelajari bagaimana esensi item bergabung untuk menciptakan hasil yang dapat diprediksi",
+        "step3Title": "Optimalkan Sumber Daya",
+        "step3Description": "Gunakan mekanisme pengenceran untuk memaksimalkan hasil dari bahan murah"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Kerajinan"
+    },
+    "items": {
+      "title": "Item Anime Story 2",
+      "description": "Panduan item terperinci yang mencakup peralatan, senjata, perlengkapan mobilitas, dan solusi penyimpanan dengan resep kerajinan dan tips penggunaan.",
+      "metaTitle": "Item Anime Story 2 - Panduan Peralatan, Senjata & Perlengkapan",
+      "metaDescription": "Database item lengkap untuk Anime Story 2 termasuk peralatan, senjata, perlengkapan mobilitas, dan penyimpanan. Pelajari cara membuat dan menggunakan setiap item secara efektif.",
+      "categoryLabel": "ITEM & PERLENGKAPAN",
+      "whatIs": "Apa itu Item?",
+      "whatIsDescription": "Panduan komprehensif untuk peralatan, senjata, perlengkapan mobilitas, dan item fungsional. Pelajari resep kerajinan, strategi penggunaan, dan kombinasi optimal.",
+      "why": "Mengapa memeriksa panduan item?",
+      "whySteps": {
+        "step1Title": "Pelajari Resep Kerajinan",
+        "step1Description": "Temukan cara membuat peralatan dan senjata penting menggunakan Apotheosis",
+        "step2Title": "Optimalkan Perlengkapan",
+        "step2Description": "Pilih item terbaik untuk gaya bermain dan tahap progres Anda",
+        "step3Title": "Tingkatkan Kelangsungan Hidup",
+        "step3Description": "Lengkapi perlengkapan mobilitas dan senjata untuk menjelajahi dunia yang berbahaya"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Item"
+    },
+    "biomes": {
+      "title": "Biome Anime Story 2",
+      "description": "Jelajahi wilayah dunia, fitur lingkungan, lokasi sumber daya, dan tips bertahan hidup untuk setiap bioma.",
+      "metaTitle": "Biome Anime Story 2 - Wilayah Dunia & Eksplorasi",
+      "metaDescription": "Jelajahi bioma Anime Story 2 termasuk Tiamana Leylines, Fog Meadow, dan wilayah surealis. Temukan sumber daya, hindari bahaya, dan jelajahi dunia tanpa batas.",
+      "categoryLabel": "WILAYAH DUNIA",
+      "whatIs": "Apa itu Bioma?",
+      "whatIsDescription": "Panduan untuk berbagai wilayah dunia, fitur lingkungan, distribusi sumber daya, dan zona bahaya. Pelajari apa yang diharapkan dan bagaimana mempersiapkan diri untuk setiap area.",
+      "why": "Mengapa menjelajahi bioma?",
+      "whySteps": {
+        "step1Title": "Temukan Sumber Daya",
+        "step1Description": "Temukan material langka dan esensi khusus untuk setiap wilayah",
+        "step2Title": "Hindari Bahaya",
+        "step2Description": "Pahami bahaya lingkungan dan makhluk berbahaya",
+        "step3Title": "Rencanakan Eksplorasi",
+        "step3Description": "Siapkan peralatan dan perlengkapan yang tepat untuk setiap jenis bioma"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Bioma"
+    },
+    "building": {
+      "title": "Pembangunan Anime Story 2",
+      "description": "Kuasai dimensi pribadi Qualia, pembangunan markas, manajemen penyimpanan, dan teknik konstruksi kreatif.",
+      "metaTitle": "Pembangunan Anime Story 2 - Konstruksi Qualia & Markas",
+      "metaDescription": "Kuasai pembangunan Anime Story 2 dengan dimensi pribadi Qualia, konstruksi markas, solusi penyimpanan, dan teknik pembangunan kreatif.",
+      "categoryLabel": "PEMBANGUNAN & MARKAS",
+      "whatIs": "Apa itu Pembangunan?",
+      "whatIsDescription": "Panduan sistem dimensi pribadi Qualia, konstruksi markas, manajemen penyimpanan, dan pembangunan kreatif. Pelajari cara membuat tempat aman Anda di dunia surealis.",
+      "why": "Mengapa membangun markas?",
+      "whySteps": {
+        "step1Title": "Buat Ruang Aman",
+        "step1Description": "Bangun markas yang aman untuk penyimpanan dan operasi pembuatan barang",
+        "step2Title": "Kelola Sumber Daya",
+        "step2Description": "Atur material secara efisien dengan solusi penyimpanan",
+        "step3Title": "Buka Qualia",
+        "step3Description": "Akses dimensi saku pribadi untuk kenyamanan maksimal"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Pembangunan"
+    },
+    "support": {
+      "title": "Dukungan Anime Story 2",
+      "description": "Dukungan teknis, kompatibilitas platform, optimasi performa, dan pemecahan masalah untuk isu umum.",
+      "metaTitle": "Dukungan Anime Story 2 - Bantuan Teknis & Perbaikan",
+      "metaDescription": "Dapatkan dukungan teknis untuk Anime Story 2 termasuk pengaturan Steam Deck, perbaikan crash, optimasi performa, dan panduan kompatibilitas platform.",
+      "categoryLabel": "DUKUNGAN TEKNIS",
+      "whatIs": "Apa itu Dukungan?",
+      "whatIsDescription": "Panduan teknis yang mencakup kompatibilitas platform, optimasi performa, perbaikan crash, dan masalah umum. Dapatkan bantuan untuk Steam Deck, pertanyaan multipemain, dan pengaturan.",
+      "why": "Mengapa memeriksa dukungan?",
+      "whySteps": {
+        "step1Title": "Perbaiki Masalah Teknis",
+        "step1Description": "Selesaikan crash, masalah performa, dan masalah kompatibilitas",
+        "step2Title": "Optimalkan Performa",
+        "step2Description": "Konfigurasikan pengaturan untuk pengalaman terbaik di platform Anda",
+        "step3Title": "Kompatibilitas Platform",
+        "step3Description": "Pelajari tentang Steam Deck, dukungan pengontrol, dan persyaratan sistem"
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Dukungan"
+    }
   }
 }
