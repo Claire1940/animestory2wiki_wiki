@@ -1,0 +1,908 @@
+{
+  "en": {
+    "bosses": [
+      {
+        "slug": "anime-story-2-black-clover-update",
+        "file": "anime-story-2-black-clover-update"
+      },
+      {
+        "slug": "anime-story-2-rimuru-portal-event",
+        "file": "anime-story-2-rimuru-portal-event"
+      },
+      {
+        "slug": "anime-story-2-secret-boss-locations",
+        "file": "anime-story-2-secret-boss-locations"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-reddit",
+        "file": "anime-story-2-reddit"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-farming-guide",
+        "file": "anime-story-2-farming-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-get",
+        "file": "anime-story-2-how-to-get"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-guide",
+        "file": "anime-story-2-update-0.5-guide"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-story-2-ascend-ticket",
+        "file": "anime-story-2-ascend-ticket"
+      },
+      {
+        "slug": "anime-story-2-elite-stat-chip",
+        "file": "anime-story-2-elite-stat-chip"
+      },
+      {
+        "slug": "anime-story-2-green-star",
+        "file": "anime-story-2-green-star"
+      },
+      {
+        "slug": "anime-story-2-mythic-orb",
+        "file": "anime-story-2-mythic-orb"
+      },
+      {
+        "slug": "anime-story-2-rainbow-star",
+        "file": "anime-story-2-rainbow-star"
+      },
+      {
+        "slug": "anime-story-2-sangetsu-blade",
+        "file": "anime-story-2-sangetsu-blade"
+      },
+      {
+        "slug": "anime-story-2-secret-orbs",
+        "file": "anime-story-2-secret-orbs"
+      },
+      {
+        "slug": "anime-story-2-senbonzakura-bloom",
+        "file": "anime-story-2-senbonzakura-bloom"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-meta",
+        "file": "anime-story-2-meta"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-tier-list",
+        "file": "anime-story-2-update-0.5-tier-list"
+      }
+    ],
+    "tower": [
+      {
+        "slug": "anime-story-2-nature-tower",
+        "file": "anime-story-2-nature-tower"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-1200",
+        "file": "anime-story-2-tower-floor-1200"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-500",
+        "file": "anime-story-2-tower-floor-500"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "units": [
+      {
+        "slug": "Anime-Story-2-ant-king",
+        "file": "Anime-Story-2-ant-king"
+      },
+      {
+        "slug": "Anime-Story-2-asota-devil",
+        "file": "Anime-Story-2-asota-devil"
+      },
+      {
+        "slug": "Anime-Story-2-dark-swordsman",
+        "file": "Anime-Story-2-dark-swordsman"
+      },
+      {
+        "slug": "Anime-Story-2-kaizen",
+        "file": "Anime-Story-2-kaizen"
+      },
+      {
+        "slug": "Anime-Story-2-slime-demon",
+        "file": "Anime-Story-2-slime-demon"
+      },
+      {
+        "slug": "Anime-Story-2-sound-breather-master",
+        "file": "Anime-Story-2-sound-breather-master"
+      },
+      {
+        "slug": "anime-story-2-aizen",
+        "file": "anime-story-2-aizen"
+      },
+      {
+        "slug": "anime-story-2-asta",
+        "file": "anime-story-2-asta"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-madara",
+        "file": "anime-story-2-madara"
+      },
+      {
+        "slug": "anime-story-2-mereoleona",
+        "file": "anime-story-2-mereoleona"
+      },
+      {
+        "slug": "anime-story-2-rimuru",
+        "file": "anime-story-2-rimuru"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  },
+  "es": {
+    "bosses": [
+      {
+        "slug": "anime-story-2-black-clover-update",
+        "file": "anime-story-2-black-clover-update"
+      },
+      {
+        "slug": "anime-story-2-rimuru-portal-event",
+        "file": "anime-story-2-rimuru-portal-event"
+      },
+      {
+        "slug": "anime-story-2-secret-boss-locations",
+        "file": "anime-story-2-secret-boss-locations"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-reddit",
+        "file": "anime-story-2-reddit"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-farming-guide",
+        "file": "anime-story-2-farming-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-get",
+        "file": "anime-story-2-how-to-get"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-guide",
+        "file": "anime-story-2-update-0.5-guide"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-story-2-ascend-ticket",
+        "file": "anime-story-2-ascend-ticket"
+      },
+      {
+        "slug": "anime-story-2-elite-stat-chip",
+        "file": "anime-story-2-elite-stat-chip"
+      },
+      {
+        "slug": "anime-story-2-green-star",
+        "file": "anime-story-2-green-star"
+      },
+      {
+        "slug": "anime-story-2-mythic-orb",
+        "file": "anime-story-2-mythic-orb"
+      },
+      {
+        "slug": "anime-story-2-rainbow-star",
+        "file": "anime-story-2-rainbow-star"
+      },
+      {
+        "slug": "anime-story-2-sangetsu-blade",
+        "file": "anime-story-2-sangetsu-blade"
+      },
+      {
+        "slug": "anime-story-2-secret-orbs",
+        "file": "anime-story-2-secret-orbs"
+      },
+      {
+        "slug": "anime-story-2-senbonzakura-bloom",
+        "file": "anime-story-2-senbonzakura-bloom"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-meta",
+        "file": "anime-story-2-meta"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-tier-list",
+        "file": "anime-story-2-update-0.5-tier-list"
+      }
+    ],
+    "tower": [
+      {
+        "slug": "anime-story-2-nature-tower",
+        "file": "anime-story-2-nature-tower"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-1200",
+        "file": "anime-story-2-tower-floor-1200"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-500",
+        "file": "anime-story-2-tower-floor-500"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-story-2-aizen",
+        "file": "anime-story-2-aizen"
+      },
+      {
+        "slug": "anime-story-2-asta",
+        "file": "anime-story-2-asta"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-madara",
+        "file": "anime-story-2-madara"
+      },
+      {
+        "slug": "anime-story-2-mereoleona",
+        "file": "anime-story-2-mereoleona"
+      },
+      {
+        "slug": "anime-story-2-rimuru",
+        "file": "anime-story-2-rimuru"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  },
+  "fr": {
+    "bosses": [
+      {
+        "slug": "anime-story-2-black-clover-update",
+        "file": "anime-story-2-black-clover-update"
+      },
+      {
+        "slug": "anime-story-2-rimuru-portal-event",
+        "file": "anime-story-2-rimuru-portal-event"
+      },
+      {
+        "slug": "anime-story-2-secret-boss-locations",
+        "file": "anime-story-2-secret-boss-locations"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-reddit",
+        "file": "anime-story-2-reddit"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-farming-guide",
+        "file": "anime-story-2-farming-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-get",
+        "file": "anime-story-2-how-to-get"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-story-2-ascend-ticket",
+        "file": "anime-story-2-ascend-ticket"
+      },
+      {
+        "slug": "anime-story-2-elite-stat-chip",
+        "file": "anime-story-2-elite-stat-chip"
+      },
+      {
+        "slug": "anime-story-2-green-star",
+        "file": "anime-story-2-green-star"
+      },
+      {
+        "slug": "anime-story-2-mythic-orb",
+        "file": "anime-story-2-mythic-orb"
+      },
+      {
+        "slug": "anime-story-2-rainbow-star",
+        "file": "anime-story-2-rainbow-star"
+      },
+      {
+        "slug": "anime-story-2-sangetsu-blade",
+        "file": "anime-story-2-sangetsu-blade"
+      },
+      {
+        "slug": "anime-story-2-secret-orbs",
+        "file": "anime-story-2-secret-orbs"
+      },
+      {
+        "slug": "anime-story-2-senbonzakura-bloom",
+        "file": "anime-story-2-senbonzakura-bloom"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-meta",
+        "file": "anime-story-2-meta"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      }
+    ],
+    "tower": [
+      {
+        "slug": "anime-story-2-nature-tower",
+        "file": "anime-story-2-nature-tower"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-1200",
+        "file": "anime-story-2-tower-floor-1200"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-500",
+        "file": "anime-story-2-tower-floor-500"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-story-2-aizen",
+        "file": "anime-story-2-aizen"
+      },
+      {
+        "slug": "anime-story-2-asta",
+        "file": "anime-story-2-asta"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-madara",
+        "file": "anime-story-2-madara"
+      },
+      {
+        "slug": "anime-story-2-mereoleona",
+        "file": "anime-story-2-mereoleona"
+      },
+      {
+        "slug": "anime-story-2-rimuru",
+        "file": "anime-story-2-rimuru"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  },
+  "id": {
+    "bosses": [
+      {
+        "slug": "anime-story-2-black-clover-update",
+        "file": "anime-story-2-black-clover-update"
+      },
+      {
+        "slug": "anime-story-2-rimuru-portal-event",
+        "file": "anime-story-2-rimuru-portal-event"
+      },
+      {
+        "slug": "anime-story-2-secret-boss-locations",
+        "file": "anime-story-2-secret-boss-locations"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-reddit",
+        "file": "anime-story-2-reddit"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-farming-guide",
+        "file": "anime-story-2-farming-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-get",
+        "file": "anime-story-2-how-to-get"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-guide",
+        "file": "anime-story-2-update-0.5-guide"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-story-2-ascend-ticket",
+        "file": "anime-story-2-ascend-ticket"
+      },
+      {
+        "slug": "anime-story-2-elite-stat-chip",
+        "file": "anime-story-2-elite-stat-chip"
+      },
+      {
+        "slug": "anime-story-2-green-star",
+        "file": "anime-story-2-green-star"
+      },
+      {
+        "slug": "anime-story-2-mythic-orb",
+        "file": "anime-story-2-mythic-orb"
+      },
+      {
+        "slug": "anime-story-2-rainbow-star",
+        "file": "anime-story-2-rainbow-star"
+      },
+      {
+        "slug": "anime-story-2-sangetsu-blade",
+        "file": "anime-story-2-sangetsu-blade"
+      },
+      {
+        "slug": "anime-story-2-secret-orbs",
+        "file": "anime-story-2-secret-orbs"
+      },
+      {
+        "slug": "anime-story-2-senbonzakura-bloom",
+        "file": "anime-story-2-senbonzakura-bloom"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-meta",
+        "file": "anime-story-2-meta"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-tier-list",
+        "file": "anime-story-2-update-0.5-tier-list"
+      }
+    ],
+    "tower": [
+      {
+        "slug": "anime-story-2-nature-tower",
+        "file": "anime-story-2-nature-tower"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-1200",
+        "file": "anime-story-2-tower-floor-1200"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-500",
+        "file": "anime-story-2-tower-floor-500"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-story-2-aizen",
+        "file": "anime-story-2-aizen"
+      },
+      {
+        "slug": "anime-story-2-asta",
+        "file": "anime-story-2-asta"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-madara",
+        "file": "anime-story-2-madara"
+      },
+      {
+        "slug": "anime-story-2-mereoleona",
+        "file": "anime-story-2-mereoleona"
+      },
+      {
+        "slug": "anime-story-2-rimuru",
+        "file": "anime-story-2-rimuru"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  },
+  "pt": {
+    "bosses": [
+      {
+        "slug": "anime-story-2-black-clover-update",
+        "file": "anime-story-2-black-clover-update"
+      },
+      {
+        "slug": "anime-story-2-rimuru-portal-event",
+        "file": "anime-story-2-rimuru-portal-event"
+      },
+      {
+        "slug": "anime-story-2-secret-boss-locations",
+        "file": "anime-story-2-secret-boss-locations"
+      },
+      {
+        "slug": "anime-story-2-slime-event",
+        "file": "anime-story-2-slime-event"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "anime-story-2-codes",
+        "file": "anime-story-2-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "anime-story-2-discord",
+        "file": "anime-story-2-discord"
+      },
+      {
+        "slug": "anime-story-2-reddit",
+        "file": "anime-story-2-reddit"
+      },
+      {
+        "slug": "anime-story-2-trello",
+        "file": "anime-story-2-trello"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "anime-story-2-beginner-guide",
+        "file": "anime-story-2-beginner-guide"
+      },
+      {
+        "slug": "anime-story-2-farming-guide",
+        "file": "anime-story-2-farming-guide"
+      },
+      {
+        "slug": "anime-story-2-guide",
+        "file": "anime-story-2-guide"
+      },
+      {
+        "slug": "anime-story-2-how-to-get",
+        "file": "anime-story-2-how-to-get"
+      },
+      {
+        "slug": "anime-story-2-noob-to-pro",
+        "file": "anime-story-2-noob-to-pro"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-guide",
+        "file": "anime-story-2-update-0.5-guide"
+      }
+    ],
+    "items": [
+      {
+        "slug": "anime-story-2-ascend-ticket",
+        "file": "anime-story-2-ascend-ticket"
+      },
+      {
+        "slug": "anime-story-2-elite-stat-chip",
+        "file": "anime-story-2-elite-stat-chip"
+      },
+      {
+        "slug": "anime-story-2-green-star",
+        "file": "anime-story-2-green-star"
+      },
+      {
+        "slug": "anime-story-2-mythic-orb",
+        "file": "anime-story-2-mythic-orb"
+      },
+      {
+        "slug": "anime-story-2-rainbow-star",
+        "file": "anime-story-2-rainbow-star"
+      },
+      {
+        "slug": "anime-story-2-sangetsu-blade",
+        "file": "anime-story-2-sangetsu-blade"
+      },
+      {
+        "slug": "anime-story-2-secret-orbs",
+        "file": "anime-story-2-secret-orbs"
+      },
+      {
+        "slug": "anime-story-2-senbonzakura-bloom",
+        "file": "anime-story-2-senbonzakura-bloom"
+      },
+      {
+        "slug": "anime-story-2-trait-tokens",
+        "file": "anime-story-2-trait-tokens"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "anime-story-2-best-team",
+        "file": "anime-story-2-best-team"
+      },
+      {
+        "slug": "anime-story-2-meta",
+        "file": "anime-story-2-meta"
+      },
+      {
+        "slug": "anime-story-2-re-release-tier-list",
+        "file": "anime-story-2-re-release-tier-list"
+      },
+      {
+        "slug": "anime-story-2-tier-list",
+        "file": "anime-story-2-tier-list"
+      },
+      {
+        "slug": "anime-story-2-update-0-5-tier-list",
+        "file": "anime-story-2-update-0.5-tier-list"
+      }
+    ],
+    "tower": [
+      {
+        "slug": "anime-story-2-nature-tower",
+        "file": "anime-story-2-nature-tower"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-1200",
+        "file": "anime-story-2-tower-floor-1200"
+      },
+      {
+        "slug": "anime-story-2-tower-floor-500",
+        "file": "anime-story-2-tower-floor-500"
+      },
+      {
+        "slug": "anime-story-2-tower",
+        "file": "anime-story-2-tower"
+      }
+    ],
+    "units": [
+      {
+        "slug": "anime-story-2-aizen",
+        "file": "anime-story-2-aizen"
+      },
+      {
+        "slug": "anime-story-2-asta",
+        "file": "anime-story-2-asta"
+      },
+      {
+        "slug": "anime-story-2-genos",
+        "file": "anime-story-2-genos"
+      },
+      {
+        "slug": "anime-story-2-julius",
+        "file": "anime-story-2-julius"
+      },
+      {
+        "slug": "anime-story-2-madara",
+        "file": "anime-story-2-madara"
+      },
+      {
+        "slug": "anime-story-2-mereoleona",
+        "file": "anime-story-2-mereoleona"
+      },
+      {
+        "slug": "anime-story-2-rimuru",
+        "file": "anime-story-2-rimuru"
+      },
+      {
+        "slug": "anime-story-2-yuno",
+        "file": "anime-story-2-yuno"
+      }
+    ]
+  }
+}
