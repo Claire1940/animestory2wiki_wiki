@@ -1,0 +1,196 @@
+import { Shield, Swords, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Anime Story 2 Shadow Knight: Guia de Build e Sinergias de Equipe",
+  description: "Domine a unidade Shadow Knight no Anime Story 2 com este guia de build. Aprenda sobre características ideais, sinergias de equipe, builds de relíquias e etapas de progressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Shadow+Knight+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki de Anime Story 2"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal da Unidade**: O **anime story 2 shadow knight** atua como um tanque de sobrevivência de raridade Secreta de primeira linha e um DPS de sangramento de alto valor.
+- **Habilidade Passiva Principal**: O Escudo de Sombra (Shadow Shield) concede 2 turnos de imunidade completa a danos após receber o que seria um golpe fatal.
+- **Melhor Escolha de Característica**: Monarca (Monarch) é a melhor característica absoluta para o slot, embora Solar e Tanque (Tank) sejam excelentes opções secundárias.
+- **Melhor Opção de Relíquia**: Equipar a relíquia Doce (Candy) fornece um aumento massivo no dano e na chance de acerto crítico para builds híbridas.
+- **Aquisição Principal**: Obtido através de invocações de alto nível e caminhos de progressão especializados de Orbes Secretas (Secret Orb).
+</Callout>
+
+<Section icon={Shield} title="Perfil e Mecânicas Principais do Shadow Knight no Anime Story 2">
+
+O **anime story 2 shadow knight** destaca-se como uma das unidades mais versáteis e resilientes de todo o jogo. Classificada na categoria ultra-rara Secreta, esta unidade faz a ponte entre uma linha de frente defensiva inabalável e um causador de danos de alta pressão. Embora muitos jogadores inicialmente o vejam apenas como um tanque de sobrevivência devido à sua enorme quantidade de vida base, suas mecânicas de indução de sangramento e capacidades de encadeamento de marcas permitem que ele funcione como um carry principal altamente competente tanto para equipes iniciantes quanto de endgame.
+
+Compreender as estatísticas básicas e o comportamento passivo do Shadow Knight é crucial antes de investir recursos valiosos como Fichas de Característica (Trait Tokens) e Bilhetes de Ascensão (Ascend Tickets). No nível básico, a unidade ostenta métricas de sobrevivência excepcionais que superam quase todas as opções Míticas.
+
+| Métrica | Valor | Detalhe |
+| :--- | :--- | :--- |
+| Raridade da Unidade | Secreta (Secret) | Taxa de invocação extremamente baixa em banners padrão |
+| Vida Base (Base HP) | 1.05K | Pool de vida inicial de alto nível para posicionamento na linha de frente |
+| Dano Base (Base DMG) | 210 | Escalonamento básico sólido para dano físico e de sangramento |
+| Função Principal | Tanque de Sobrevivência | Projetado para absorver mecânicas fatais de chefes |
+| Habilidade Passiva | Escudo de Sombra (Shadow Shield) | Concede 2 turnos de imunidade total a danos ao receber um golpe fatal |
+| Especialidade de Combate | Sangramento e Marca | Pune alvos marcados e ativa ataques extras |
+
+A característica definidora do Shadow Knight é sua habilidade passiva, Escudo de Sombra (Shadow Shield). Quando a unidade sofre um dano que normalmente a derrotaria, o escudo é ativado automaticamente, tornando o Shadow Knight completamente imune a todos os danos recebidos pelas próximas duas rodadas de combate. Esta rede de segurança mecânica permite que seus aliados de suporte e causadores de danos finalizem confrontos difíceis sem medo de uma derrota repentina. Além disso, em configurações iniciais, a unidade aplica marcas de sangramento no início da batalha, permitindo uma limpeza rápida das fases iniciais da história.
+
+<Callout type="tip" title="Estratégia de Sobrevivência">
+Coloque o Shadow Knight no primeiro slot da sua equipe. Isso garante que ele absorva o impacto dos ataques de alvo único dos chefes, maximizando o valor do seu escudo de imunidade a danos de 2 turnos, enquanto mantém seguras as suas unidades de DPS da linha de trás.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meta Competitivo e Sinergias de Equipe">
+
+No meta de endgame do Anime Story 2, a composição da equipe depende muito da sinergia elemental, controle de grupo e distribuição de funções. O **anime story 2 shadow knight** se destaca porque não exige cuidados constantes de curadores dedicados, liberando slots da sua equipe para buffers agressivos e unidades de utilidade.
+
+Ao comparar o Shadow Knight com outras unidades de raridade Secreta, sua utilidade defensiva é incomparável, embora sua produção de dano bruto seja naturalmente menor do que a de carries de escalonamento puro como Vegita (Roxo) ou Roku (Ultra).
+
+| Unidade Secreta | Vida Base | Dano Base | Utilidade Passiva | Função Principal na Equipe |
+| :--- | :--- | :--- | :--- | :--- |
+| Shadow Knight | 1.05K | 210 | Imunidade a danos de 2 turnos em golpe fatal | Tanque de Sobrevivência / DPS de Sangramento |
+| Roku (Azul) | 980 | 560 | Permite que todos os aliados comecem o combate primeiro | Iniciador de Velocidade / Burst |
+| Rei Formiga (Ant King) | 1.0K | 525 | 50% de chance de envenenar o alvo (acumula) | Matador de Chefe de Veneno |
+| Careca (Bald) | 1.05K | 560 | Chance de execução baseada em proporções de dano | Especialista em Execução |
+| Gojin (Natal) | 1.0K | 1.47K | 50% de chance de esquivar de ataques recebidos | Carry de Esquiva de Alto Dano |
+
+Para desbloquear todo o potencial do Shadow Knight, você deve combiná-lo com unidades que capitalizem em suas capacidades de contenção (stall) ou complementem suas mecânicas de marca. Abaixo estão três configurações de equipe altamente eficazes projetadas para diferentes estágios de progressão do jogo.
+
+<CardGrid cols={3}>
+  <Card title="A Linha de Frente Imortal">
+    - **Linha de Frente**: Shadow Knight
+    - **Suporte Tanque**: Touro Negro (Black Bull)
+    - **Curador**: Roku (Preto)
+    - **Utilidade**: Jolios (Rei)
+    - **Foco**: Equipe definitiva de contenção para avançar nos andares altos da Torre da Ascensão (Tower of Ascension).
+  </Card>
+  <Card title="Corrente de Sangramento e Marca">
+    - **Linha de Frente**: Shadow Knight
+    - **Amplificador**: Luxúria (Lust)
+    - **Carry DPS**: Assassino Sombrio (Dark Assassin)
+    - **Suporte**: Gojin
+    - **Foco**: Maximiza o dano contra alvos marcados e executa chefes com vida baixa.
+  </Card>
+  <Card title="Progressão Equilibrada">
+    - **Linha de Frente**: Shadow Knight
+    - **Carry**: Lutador Espiritual (Spirit Brawler)
+    - **Sustentação**: Guardião de Almas (Soul Guardian)
+    - **Suporte de DPS**: Destruição (Destruction)
+    - **Foco**: Configuração ideal de meio de jogo utilizando unidades Lendárias e Míticas de fácil acesso.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Nota de Sinergia">
+Combinar o Shadow Knight com o Touro Negro (Black Bull) cria uma parede defensiva de camada dupla. Como o Touro Negro pode sobreviver uma vez com 1 de HP e ganhar uma curta imunidade, e o Shadow Knight tem um escudo de 2 turnos, sua equipe torna-se virtualmente imune a chefes de dano explosivo (burst).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Características Ideais e Estratégia de Reroll">
+
+As Características (Traits) são modificadores passivos aplicados às suas unidades no NPC de Características localizado na área de Melhoria (Upgrade) do lobby principal. Rolar novamente (reroll) essas características requer Fichas de Característica (Trait Tokens), que podem ser adquiridas através de missões diárias, desafios, compras na loja ou códigos promocionais ativos. Como o Shadow Knight é uma unidade Secreta, ele merece suas Fichas de Característica de maior prioridade.
+
+Dependendo se você deseja construir seu Shadow Knight como um tanque puro e imbatível ou como um carry híbrido de sangramento, suas características de foco serão diferentes.
+
+| Nome da Característica | Chance de Rolar | Efeitos de Buff | Melhor Aplicação | Recomendação de Reroll |
+| :--- | :--- | :--- | :--- | :--- |
+| Monarca (Monarch) | 0.1% | +25% Crítico, +50% Dano Crítico, +75% HP, +75% Dano | Melhor Opção Geral | Pare imediatamente e bloqueie |
+| Solar | 2.0% | +33% de Vida, +33% de Dano | Lutador Híbrido (Bruiser) | Mantenha, a menos que busque Monarca |
+| Olho Fatal (Dead Eye) | 2.0% | +40% de Dano Crítico, +40% de Chance Crítica | Carry Ofensivo | Mantenha para builds focadas em DPS |
+| Tanque (Tank) | 11.0% | +25% de Vida | Linha de Frente Pura | Mantenha em configurações puramente defensivas |
+| Berserk | 11.0% | +25% de Dano | Carry Econômico | Mantenha no início; role novamente para Solar/Monarca |
+| Cósmico (Cosmic) | 11.0% | +15% de Vida, +15% de Dano | Orçamento Equilibrado | Substituto temporário aceitável |
+
+Se você é um jogador free-to-play com Fichas de Característica limitadas, focar em Tanque ou Berserk é um ponto de parada altamente prático. Essas características fornecem um aumento direto de 25% na vida ou no dano, permitindo que o Shadow Knight desempenhe seu papel excepcionalmente bem nos mundos de história padrão. Para jogadores de endgame, economizar fichas para buscar Solar ou a elusiva característica Monarca é obrigatório para sobreviver a incursões (raids) de alto nível e andares profundos da Torre.
+
+<Callout type="warning" title="Gerenciamento de Fichas">
+Não gaste suas últimas Fichas de Característica buscando uma rolagem de 0.1% de Monarca no Shadow Knight se os outros quatro membros da sua equipe tiverem características completamente vazias ou de nível baixo. Uma equipe equilibrada com características Vigor III ou Enfraquecer III (Impair III) supera uma única unidade com Monarca apoiada por aliados fracos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão Passo a Passo e Build de Relíquias">
+
+Otimizar o **anime story 2 shadow knight** requer um caminho de melhoria estruturado. Os jogadores devem transformar a unidade, de uma invocação bruta para uma potência totalmente equipada e ascendida, criando relíquias compatíveis e farmando fases específicas do mundo.
+
+Siga estas etapas para maximizar a eficiência da sua unidade:
+
+<Steps>
+  <Step num="1" title="Aquisição e Nivelamento">
+    Adquira o Shadow Knight através de banners ou coletando 50 Orbes Secretas (Secret Orbs) em missões de alto nível. Assim que obtê-lo, coloque-o imediatamente em sua equipe ativa e limpe fases da história de alta EXP para elevar seu nível básico ao limite atual.
+  </Step>
+  <Step num="2" title="Alinhamento de Características">
+    Visite o NPC de Características na área de Melhoria (Upgrade). Gaste suas Fichas de Característica acumuladas para rolar pelo menos uma característica defensiva ou ofensiva de nível três. Busque Tanque, Berserk ou Solar para estabelecer uma base sólida de desempenho.
+  </Step>
+  <Step num="3" title="Criação de Relíquias">
+    Farme as fases finais de mundos específicos para coletar fragmentos de criação. Leve esses fragmentos para a Área de Melhoria para criar uma relíquia que combine com o seu caminho de build. Equipe a relíquia diretamente no seu Shadow Knight para desbloquear atributos secundários massivos.
+  </Step>
+  <Step num="4" title="Ascensão">
+    Adquira Bilhetes de Ascensão (Ascend Tickets) na Loja de Moedas ou em missões de marcos. Use esses bilhetes para ascender seu Shadow Knight, aumentando seu limite de nível e multiplicando seus atributos gerais de vida base e dano para o conteúdo de fim de jogo.
+  </Step>
+</Steps>
+
+As relíquias são críticas para otimizar ao máximo o desempenho da sua unidade. Como você só pode equipar uma relíquia por unidade, escolher a receita correta é vital.
+
+| Nome da Relíquia | Requisito de Fragmento | Local de Origem | Buff Passivo | Função no Caminho da Build |
+| :--- | :--- | :--- | :--- | :--- |
+| Elixir | x100 Fragmento Azul | Masmorra Dupla (Double Dungeon) Fase VII | +10% de Vida | Aumento de sobrevivência no início do jogo |
+| Chapéu de Palha (Strawhat) | x150 Fragmento Amarelo | Porto da Praia (Beach Harbor) Fase VII | +20% de Vida | Build de tanque puro para o meio do jogo |
+| Katana | x150 Fragmento Vermelho | Distrito de Ouro (Gold District) Fase VII | +20% de Dano | Build de carry híbrido para o meio do jogo |
+| Doce (Candy) | x150 Roxo, x150 Marrom | Vila de Neve (Snow Village) e Cidade Heroica (Heroic City) | +20% de Dano, +10% de Crítico | Híbrido ideal para o fim do jogo |
+| Carvão (Coal) | x150 Roxo, x150 Marrom | Vila de Neve (Snow Village) e Cidade Heroica (Heroic City) | +20% de HP, +10% de Redução de Dano | Tanque definitivo para o fim do jogo |
+
+Para uma build puramente defensiva, a relíquia de Carvão (Coal) combinada com a característica Tanque torna o Shadow Knight quase impossível de ser derrubado. Por outro lado, equipar la relíquia Doce (Candy) junto com uma característica Solar ou Monarca transforma a unidade em um lutador de linha de frente devastador que pode limpar ondas de inimigos sozinho.
+
+<Callout type="info" title="Dica de Farm">
+Ao farmar fragmentos para relíquias de fim de jogo como Carvão ou Doce, certifique-se de consumir uma Poção de Drops ou Poção de Sorte comprada na Loja de Moedas. Isso aumenta significativamente o rendimento de fragmentos por corrida, economizando horas de farm repetitivo.
+</Callout>
+
+<Checklist
+  id="shadow-knight-milestones"
+  title="Lista de Verificação de Otimização do Shadow Knight:"
+  items={[
+    "Alcançar o nível básico máximo através do farm de fases da história",
+    "Garantir uma característica de alto nível (Tanque, Berserk, Solar ou Monarca)",
+    "Criar e equipar uma relíquia apropriada para o seu nível (Chapéu de Palha, Doce ou Carvão)",
+    "Coletar Bilhetes de Ascensão e concluir a primeira ascensão da unidade",
+    "Calibrar os slots da equipe para garantir o posicionamento correto na linha de frente e buffs de sinergia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Para ajudar você a aproveitar ao máximo sua progressão, os jogadores podem conferir a [página oficial do Anime Story 2 no Roblox](https://www.roblox.com/games/116766451305209/Anime-Story-2) para atualizações ao vivo e eventos da comunidade. Abaixo estão as perguntas mais comuns sobre a otimização desta unidade Secreta de elite.
+
+<FAQ items={[
+  {
+    question: "Como posso adquirir o anime story 2 shadow knight de forma confiável?",
+    answer: "O Shadow Knight é uma unidade de raridade Secreta, o que significa que possui uma taxa de obtenção incrivelmente baixa em banners de invocação padrão. O método mais confiável para adquiri-lo é concluir missões diárias e semanais de alta dificuldade para acumular 50 Orbes Secretas, que podem ser resgatadas por uma unidade Secreta garantida."
+  },
+  {
+    question: "O Shadow Knight é mais adequado como um tanque puro ou um DPS híbrido?",
+    answer: "Ele se destaca em ambas as funções, mas sua força definidora no meta é a sua sobrevivência. Em andares altos da Torre da Ascensão e em incursões (raids), construir ele como um tanque puro com a relíquia de Carvão e a característica Tanque é altamente recomendado. Para a limpeza geral da história, uma build híbrida de DPS com a relíquia Doce e a característica Berserk ou Solar funciona melhor."
+  },
+  {
+    question: "A imunidade passiva a danos do Escudo de Sombra reseta durante uma única batalha?",
+    answer: "Não, a passiva de imunidade a danos do Escudo de Sombra é ativada apenas uma vez por batalha quando a unidade sofre dano fatal. Assim que a janela de imunidade de 2 turnos expira, o Shadow Knight pode ser derrotado normalmente se sua vida restante for esgotada, tornando curadores na linha de trás ou suportes defensivos altamente valiosos."
+  },
+  {
+    question: "Quais características devo manter se não conseguir rolar a característica de 0.1% Monarca?",
+    answer: "Se você não conseguir obter Monarca, deve parar de rolar novamente se cair em Solar (que fornece +33% de Vida e +33% de Dano) ou Tanque (+25% de Vida). Ambas as características se alinham perfeitamente com a alta quantidade de vida base e as capacidades defensivas da unidade."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+O Shadow Knight é um investimento de alto nível para qualquer jogador sério. Sua combinação única de imunidade absoluta a danos e aplicação consistente de sangramento o torna uma unidade de linha de frente essencial que permanece relevante desde a sua primeira limpeza de história até os andares mais profundos da torre de fim de jogo.
+</Callout>
+
+</Section>
