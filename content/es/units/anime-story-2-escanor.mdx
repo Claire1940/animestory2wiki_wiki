@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Anime Story 2 Escanor: Guía de Unidad 2026 y Clasificaciones de Combate",
+  description: "Domina el Pecado del Orgullo del León en Anime Story 2. Explora las habilidades Sunshine de Escanor, su forma The One y las mejores builds del meta de 2026.",
+  keywords: "Anime Story 2, Escanor, guía, meta 2026, habilidades, Sunshine, The One",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anime+Story+2+Escanor+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Anime Story 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Anime Story 2 Escanor** es una unidad de nivel S de élite especializada en daño de fuego de ráfaga alta y escalado de estadísticas basado en el tiempo.
+- **Mecánica Principal**: Su poder escala con el ciclo día/noche del juego, alcanzando la invencibilidad máxima durante la ventana del **Mediodía**.
+- **Mejor Arma**: Emparéjalo siempre con el **Hacha Divina Rhitta** para maximizar su Super Tajo y el daño de área (AOE) basado en calor.
+- **Rol de Combate**: Principalmente un híbrido de DPS de vanguardia/Tanque que puede omitir las defensas enemigas usando la habilidad **Espada Divina**.
+- **Ruta de Evolución**: Enfócate en desbloquear **The One: Ultimate** sacrificando fuerza vital para obtener un daño masivo capaz de limpiar el meta de 2026.
+</Callout>
+
+<Section icon={Map} title="Anime Story 2 Escanor: Resumen del Personaje">
+
+En el meta de 2026 de **Anime Story 2**, Escanor sigue siendo una de las unidades más únicas y polarizantes disponibles para los jugadores. Conocido como el Pecado del Orgullo del León, es el antiguo príncipe del Reino de Castellio y es ampliamente considerado como el Caballero Sagrado más fuerte. A diferencia de otras unidades que mantienen niveles de poder estáticos, Escanor depende de la habilidad **Sunshine**, que vincula su efectividad en combate directamente con la posición del sol.
+
+Durante el día, Escanor se transforma de un camarero sumiso y débil en una potencia arrogante y dominante. Esta naturaleza dual requiere que los jugadores gestionen cuidadosamente los tiempos de sus encuentros. Si participas en incursiones de alto nivel por la noche, el nivel de poder de Escanor cae a un mísero 15, lo que lo hace virtualmente inútil. Sin embargo, al llegar el mediodía, entra en el estado **The One**, convirtiéndose en la manifestación misma del poder.
+
+| Atributo | Forma Diurna | Forma Nocturna |
+| :--- | :--- | :--- |
+| **Nivel de Poder** | 114,000+ (En aumento) | 15 (Estático) |
+| **Estadística Principal** | Fuerza / Magia | Espíritu |
+| **Efecto de Aura** | Calor Intenso / Derretimiento | Ninguno |
+| **Personalidad** | Arrogante / Orgulloso | Asustadizo / Amable |
+| **Velocidad de Movimiento** | Alta | Muy Baja |
+
+<Callout type="tip" title="Sincronización Estratégica">
+Consulta siempre el reloj del juego antes de comenzar una pelea contra un jefe. Escanor gana aproximadamente 5 puntos de poder cada segundo a medida que sale el sol, por lo que esperar solo unos minutos puede cambiar drásticamente tu producción de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Combate y Mecánicas de Sunshine">
+
+Dominar a **Anime Story 2 Escanor** requiere una comprensión profunda de su poder mágico, **Sunshine**. Esta habilidad no es solo un potenciador de estadísticas; cambia las propiedades de sus ataques y proporciona daño ambiental pasivo a los enemigos cercanos. En la actualización de 2026, su aura de calor puede derretir armaduras estándar, proporcionando una reducción de defensa pasiva del 15% a todos los enemigos cercanos.
+
+Su conjunto de habilidades se divide entre ataques diurnos estándar y sus habilidades pináculo de "The One". Los jugadores deben enfocarse en rotar sus tajos para cargar el "Medidor de Calor" antes de desatar sus formas definitivas.
+
+| Nombre de Habilidad | Tipo | Descripción |
+| :--- | :--- | :--- |
+| **Super Tajo** | Activa | Un poderoso golpe descendente con Rhitta que inflige daño de área (AOE). |
+| **Espada Divina** | The One | Un movimiento de mano que corta barreras defensivas como la Nebulosa Oscura. |
+| **Lanza Divina** | The One | Una estocada de alta precisión usando el dedo índice para una perforación masiva a un solo objetivo. |
+| **Aura de Sunshine** | Pasiva | Irradia un calor intenso, dañando y quemando a los enemigos en un radio de 5 metros. |
+| **The One: Ultimate** | Definitiva | Convierte la fuerza vital en poder mágico para obtener fuerza infinita a costa de HP. |
+
+<CardGrid cols={2}>
+  <Card title="Dominancia Diurna">
+    - **Fuerza Inmensa**: Atraviesa fácilmente a demonios de alto nivel.
+    - **Resistencia al Calor**: Inmune a la mayoría de los efectos de estado basados en fuego.
+    - **Búfer de Orgullo**: Gana inmunidad a ciertos debuffs de "Mandamiento".
+  </Card>
+  <Card title="Vulnerabilidad Nocturna">
+    - **Baja Durabilidad**: Puede ser derrotado por monstruos de nivel bajo.
+    - **Sin Magia**: Las habilidades de Sunshine se desactivan después del atardecer.
+    - **Dependencia de Soporte**: Requiere un sanador o protector durante los ciclos nocturnos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de la Fuerza Vital">
+Usar **The One: Ultimate** es un arma de doble filo. Si bien proporciona un daño inigualable en el meta de 2026, eventualmente drenará el HP de Escanor a cero. Úsalo solo para las fases finales de los jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Obtener y Evolucionar a Escanor">
+
+Obtener a **Anime Story 2 Escanor** implica una serie de misiones de varias etapas que reflejan su historia como príncipe y miembro de los Siete Pecados Capitales. No puedes simplemente obtenerlo en el gacha estándar; requiere hitos específicos y colecciones de objetos.
+
+<Steps>
+  <Step num="1" title="Localiza la Taberna Secreta">
+    Viaja a la región montañosa y encuentra la taberna oculta en la cueva. Debes visitarla durante el **Ciclo Nocturno** para encontrar a Escanor en su forma de camarero.
+  </Step>
+  <Step num="2" title="Misión Los Vampiros de Edinburgh">
+    Completa la historia secundaria "Vampiros de Edinburgh". Debes derrotar al Rey Izraf usando solo ataques físicos para demostrar tu valía ante el Pecado del León.
+  </Step>
+  <Step num="3" title="Recupera a Rhitta">
+    Encuentra el Hacha Divina Rhitta en las afueras de Liones. Nota: Tu personaje debe tener al menos 500 de Fuerza para siquiera mover el arma.
+  </Step>
+  <Step num="4" title="La Prueba del Orgullo">
+    Sobrevive a un duelo contra Meliodas en su Modo Asalto. No necesitas ganar, pero debes sobrevivir hasta que el reloj marque el Mediodía para activar la intervención de Escanor.
+  </Step>
+</Steps>
+
+| Etapa de Evolución | Requisitos | Desbloqueo Clave |
+| :--- | :--- | :--- |
+| **Escanor Base** | Nivel 1 + Rhitta | Super Tajo |
+| **Caballero Orgulloso** | Nivel 50 + 10 Fragmentos de Sol | Aura de Sunshine |
+| **The One** | Nivel 80 + Maestría del Mediodía | Espada Divina / Lanza Divina |
+| **Pecado Definitivo** | Nivel 100 + Bendición de Merlín | The One: Ultimate |
+
+<Callout type="success" title="Sinergia con Merlín">
+Si tienes a Merlín en tu equipo, los costos de evolución de Escanor se reducen en un 20% y la duración de su forma "The One" se extiende por 15 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento y Tesoro Sagrado: Rhitta">
+
+Escanor está incompleto sin su Tesoro Sagrado, el **Hacha Divina Rhitta**. Esta hacha masiva y ornamental lleva el nombre de una doncella amada por el sol. En **Anime Story 2**, Rhitta actúa como un recipiente de almacenamiento para el calor de Escanor, permitiéndole liberar ráfagas masivas de energía incluso antes de que el sol alcance su punto máximo.
+
+**Estadísticas del Arma (Nivel Máximo 2026):**
+- **Poder de Ataque**: 8,500 (Escala con el Sol)
+- **Peso**: 1,500 lbs (Requiere el rasgo "Orgullo" para ser empuñada)
+- **Habilidad Especial**: **Cargar y Disparar** - Almacena energía radiante durante el día para ser liberada en una explosión masiva.
+
+| Nivel de Mejora | Materiales Necesarios | Efecto de Bonificación |
+| :--- | :--- | :--- |
+| **Nivel 1-10** | Mineral de Hierro, Piedras Solares | +5% Velocidad de Ataque |
+| **Nivel 11-20** | Oro Mítico, Esencia Solar | +10% Retención de Calor |
+| **Nivel 21-30** | Sangre de Dragón, Fuego Estelar | Desbloquea "Tajo Atómico" |
+
+<Callout type="info" title="Liberación del Tesoro Sagrado">
+Al gritar el comando "Liberación del Tesoro Sagrado", Escanor puede descargar todo el calor almacenado en Rhitta, infligiendo un daño masivo a todo en un amplio radio. Esta es su mejor herramienta para limpiar oleadas de enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión del Meta 2026">
+
+Para asegurar que tu build de **Anime Story 2 Escanor** esté lista para el contenido final, como la Incursión del Rey Demonio, sigue esta lista de progresión.
+
+<Checklist
+  id="escanor-progression"
+  title="Objetivos de Maestría de Escanor:"
+  items={[
+    "Alcanzar el Nivel 100 y desbloquear 'The One: Ultimate'",
+    "Equipar un Hacha Divina Rhitta de Nivel 30",
+    "Obtener el título 'Pecado del León' para un aumento del 10% en Fuerza",
+    "Completar la misión 'Recuerdo de Rosa' para obtener mejoras permanentes de HP en forma nocturna",
+    "Lograr una tasa de éxito del 100% en el mini-juego 'Transformación del Mediodía'"
+  ]}
+/>
+
+<Callout type="tip" title="Búfer de Poesía">
+No olvides interactuar con el "Libro de Poesía" en tu inventario. Escribir un poema para Merlín una vez al día proporciona un aumento temporal del 5% en el Espíritu para la forma nocturna de Escanor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi Escanor no hace daño por la noche?",
+    answer: "Esta es una mecánica central de Anime Story 2 Escanor. Su poder está ligado al sol. Por la noche, su nivel de poder es solo 15. Debes esperar al amanecer o usar un objeto 'Linterna Solar' para potenciarlo temporalmente."
+  },
+  {
+    question: "¿Cómo activo la forma 'The One'?",
+    answer: "The One se activa automáticamente cuando el reloj del juego llega a las 12:00 PM. Dura exactamente un minuto de tiempo real, durante el cual eres invencible e infliges el máximo daño."
+  },
+  {
+    question: "¿Es Escanor mejor que Meliodas en el meta de 2026?",
+    answer: "En términos de daño de ráfaga puro al mediodía, Escanor es superior. Sin embargo, Meliodas es más consistente durante todo el ciclo día/noche. Escanor es la opción preferida para derrotar jefes rápidamente."
+  },
+  {
+    question: "¿Puedo usar a Rhitta con otros personajes?",
+    answer: "No. Rhitta es un Tesoro Sagrado bloqueado por personaje. Otras unidades la encontrarán demasiado pesada para moverla, manteniéndose fiel a la historia donde incluso Galand no pudo levantarla."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+Escanor sigue siendo una inversión de primer nivel para cualquier jugador serio. Su capacidad para ignorar defensas e infligir millones de puntos de daño durante su punto máximo lo convierte en una unidad esencial para conquistar el contenido más difícil en 2026.
+</Callout>
+
+</Section>
